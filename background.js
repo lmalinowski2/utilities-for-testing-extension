@@ -12,14 +12,14 @@ chrome.runtime.onInstalled.addListener((_) => {
   });
 
   chrome.contextMenus.create({
-    title: "Highlight  and show all 'display none' elements",
-    id: "Highlight  and show all 'display none' elements",
+    title: "Highlight and show all 'display none' elements",
+    id: "Highlight and show all 'display none' elements",
     contexts: ["all"],
   });
 
   chrome.contextMenus.create({
-    title: "Highlight  and show one 'display none' element",
-    id: "Highlight  and show one 'display none' element",
+    title: "Highlight and show one 'display none' element",
+    id: "Highlight and show one 'display none' element",
     contexts: ["all"],
   });
 
